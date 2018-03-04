@@ -6,6 +6,13 @@
   padding: $s-size;
 }
 
+.text-input--small {
+  padding: $s-size;
+  width: 12rem;
+  border: none;
+  background: #f7f7f7;
+}
+
 .select {
   @extend .text-input;
   padding: 0; 

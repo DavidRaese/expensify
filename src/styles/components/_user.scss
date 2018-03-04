@@ -1,0 +1,10 @@
+.user {
+  border: 1px solid darken(#666, 7%);
+  width: 15rem;
+  height: 100%;
+  text-align: center;
+
+  @media (max-width: $desktop-breakpoint-l) {
+    display: none;
+  }
+}

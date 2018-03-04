@@ -7,14 +7,14 @@ export const ExpenseList = (props) => (
   <div className="content-container">
     <div className="list-header">
       <div className="show-for-mobile">Ausgaben</div>
-      <div className="show-for-desktop">Ausgabe</div>
+      <div className="show-for-desktop">Zahlung</div>
       <div className="show-for-desktop">Kosten</div>
     </div>
     <div className="list-body">
       {props.expenses.length === 0
         ? (
           <div className="list-item list-item--message">
-            <span>No expenses</span>
+            <span>Zurzeit sind noch einen Ausgaben vorhanden</span>
           </div>
         )
         : (props.expenses.map((expense) => {
